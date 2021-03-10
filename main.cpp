@@ -9,5 +9,6 @@ using namespace std;
 
 int main()
 {
- 
+ Player djo = Player ("djo", 0,0,0,0,0);
+ ;  
 }

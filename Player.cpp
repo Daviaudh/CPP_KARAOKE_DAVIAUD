@@ -37,3 +37,8 @@ std::int16_t Player::getScore4()
     return _score4;
 }
 
+std::int16_t Player::getMoyenne()
+{
+ int moyenne = (_score0 + _score1+ _score2+_score3+_score3+_score4) / 5;
+    return moyenne ;
+}

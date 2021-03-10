@@ -22,8 +22,19 @@ class Player
         std::int16_t getMoyenne();
         
         void setNom(std::string newName);
-        std::string Player();
+
         std::string Player(std::string _name, int _score1, int _score2, int _score3,int _score4, int _score5);
         
+};
+
+class Karaoke
+{
+private:
+    std::string _nom;
+    std::int16_t _nombreChanson;
+
+public:
+    
+
 };
 
